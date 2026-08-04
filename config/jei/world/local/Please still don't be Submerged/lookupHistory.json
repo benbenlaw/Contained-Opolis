@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"extendedae:quartz_blend"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:raw_silicon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:silicon"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

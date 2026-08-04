@@ -2,7 +2,7 @@
 	#Fluid temperature from which you get a burning effect if a Wooden Bucket contains such a hot fluid. (default: 1000) (Deactivation by setting a number larger than the hottest fluid)
 	# Default: 1000
 	# Range: -10000 ~ 10000
-	burningTemperature = 10000
+	burningTemperature = 1000
 	#Minimum temperature of fluid at which the Wooden Bucket breaks when emptied. (default: 1000) (Deactivation by setting a number larger than the hottest fluid)
 	# Default: 1000
 	# Range: -10000 ~ 10000

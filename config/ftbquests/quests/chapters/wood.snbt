@@ -700,5 +700,47 @@
 			x: -2.5d
 			y: -0.5d
 		}
+		{
+			dependencies: [
+				"24643B7A97601731"
+				"45EA96A94E1022DE"
+			]
+			id: "754102C77BBCFDCA"
+			rewards: [{
+				count: 8
+				id: "54CE56CD53C8722E"
+				item: {
+					count: 1
+					id: "opolisutilities:leafy_string"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E5DAB0D2F4555D0"
+				item: { count: 1, id: "opolisutilities:leafy_string" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53A6077BE62BA233"]
+			id: "24643B7A97601731"
+			rewards: [{
+				id: "6C27415199C152C0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "025E9378223268A6"
+				item: { count: 1, id: "cloche:shears_upgrade" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
 	]
 }

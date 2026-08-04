@@ -31,7 +31,7 @@ burstAddonTicks = 240
 #Use tighter hitboxes for machine addons
 tightMachineAddonHitboxes = true
 #Use tighter hitboxes for machine frames
-tightMachineFrameHitboxes = false
+tightMachineFrameHitboxes = true
 #Use tighter hitboxes for cables
 tightCableHitboxes = true
 

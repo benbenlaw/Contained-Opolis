@@ -1,13 +1,14 @@
 //Server Events
 
 ServerEvents.loaded(event => {
-  if (event.server.persistentData.gameRules) return
+  if (event.server.persistentData.gameRules2) return
   event.server.gameRules.set("doTraderSpawning", false)
   event.server.gameRules.set("doPatrolSpawning", false)
   event.server.gameRules.set("doInsomnia", false)
-  event.server.gameRules.set("doDaylightCycle", true)
   event.server.gameRules.set("doWeatherCycle", false)
-  event.server.persistentData.gameRules = true
+  event.server.gameRules.set("doDaylightCycle", false)
+  event.server.runCommandSilent("time set 6000")
+  event.server.persistentData.gameRules2 = true
 })
 
 //Banned Placed items in Space

@@ -7,6 +7,17 @@ Contained
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Contained Opolis 5.3
+
+### Changes
+- Removed Tesseract because it can cause an energy loop causing massive lag and server crashes 
+- Readded Raw Silicon to Silicon recipe for an alternative way to get Silicon
+- Locked time to day and re-disabled the Day/Night cycle (Turns out the Solar Cooker functions normally with the gamerule disabled it only breaks if the dimensions have a fixed time property)
+- Fixed the Budding Core drop chance to be affected by Fortune instead of Looting
+- Finally managed to remove the wooden bucket and coal shards from being used as fuel
+- Thanks for @nageih for the i18n
+- Thanks for @shaaaaash for the Russian translation
+
 # Contained Opolis 5.2
 
 ### Changes

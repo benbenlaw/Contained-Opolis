@@ -8,7 +8,7 @@
   "showSummaryOnDebugScreen": true,
   "memoryUsageWarningPercentage": 90,
   "debugChunkLoading": false,
-  "debugThreadsStuck": true,
+  "debugThreadsStuck": false,
   "disableEternalStarlightProgress": false,
   "skipTickingUnloadedFluxNetworks": false
 }

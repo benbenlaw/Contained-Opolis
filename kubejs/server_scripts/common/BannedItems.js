@@ -69,6 +69,14 @@ ServerEvents.tags("item", (event) => {
         "supplementaries:pancake",
         'extendedae:infinity_cobblestone_cell',
         'extendedae:infinity_water_cell',
+        'minecraft:short_dry_grass',
+        'minecraft:leaf_litter',
+        'minecraft:tall_dry_grass',
+        'swiss:storage_item_interface',
+        'swiss:crafting_item_panel',
+        'swiss:exporter_item_interface',
+        'swiss:importer_item_interface',
+        'swiss:storage_item_panel'
     ]);
 });
 

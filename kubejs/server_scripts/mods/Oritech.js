@@ -46,7 +46,6 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'oritech:compat/powah/energizing/fluxite' })
   event.remove({ id: 'oritech:compat/powah/energizing/uranite' })
   event.remove({ id: 'oritech:compat/powah/energizing/uranite' })
-  event.remove({ id: 'oritech:silicon_from_smelting_raw_silicon' })
   event.remove({ id: 'oritech:particle/diamond' })
 
   //Replace Recipes
@@ -132,6 +131,9 @@ ServerEvents.recipes(event => {
 
   //Pulverizer
   event.shaped('oritech:pulverizer_block', ['AAA', 'ABA', 'CCC'], { A: 'justdirethings:ferricore_ingot', B: 'oritech:machine_core_1', C: '#contained:steel_ingots' }).id('oritech:crafting/pulverizeralt')
+
+  //Raw Silicon
+  event.shaped('3x oritech:raw_silicon', ['AA', 'BB'], { A: 'ae2:certus_quartz_dust', B: '#c:sands' }).id('oritech:crafting/alloy/rawsiliconalt')
 
   //Portable Energy Storage
   event.shaped('oritech:small_storage_block', ['AAA', 'CBC', 'AAA'], {

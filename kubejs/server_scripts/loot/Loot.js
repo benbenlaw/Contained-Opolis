@@ -15,7 +15,7 @@ LootJS.modifiers(event => {
 
     buddingBlocks.forEach(block => {
         event.addBlockModifier(block).removeLoot('*')
-            .addLoot(LootEntry.of('contained:budding_core').randomChanceWithEnchantment("minecraft:looting", [0.10, 0.10, 0.15, 0.20, 0.25]))
+            .addLoot(LootEntry.of('contained:budding_core').randomChanceWithEnchantment("minecraft:fortune", [0.10, 0.10, 0.15, 0.20, 0.25]))
     })
 
     // Sculk

@@ -4,7 +4,9 @@
     "geore_clusters",
     "__default_enchanted_books",
     "__default_vanilla_beds",
+    "bundles",
     "__kjs_contained_colors_type_spray_can",
+    "__kjs_contained_colors_black_stone",
     "__kjs_contained_colors_yellow_bamboo_mosaic"
   ]
 }
