@@ -414,5 +414,45 @@
 			x: 1.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["35549EDB02AEF329"]
+			id: "0A1BA3222E47F339"
+			optional: true
+			rewards: [{
+				id: "00009C98C9F7E9FD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E95BE8D99550CFD"
+				item: { count: 1, id: "ae2:sky_stone_tank" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A1BA3222E47F339"]
+			id: "1565D3C6EA15B372"
+			optional: true
+			rewards: [{
+				id: "73E0A7E4450193CD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37D76187E9E859D9"
+				item: { count: 1, id: "justdirethings:polymorphic_wand" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
 	]
 }

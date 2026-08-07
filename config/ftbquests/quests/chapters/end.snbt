@@ -362,6 +362,14 @@
 				"3D985F69E4A2A7C5"
 			]
 			id: "033DBCF88277E03A"
+			rewards: [{
+				id: "450411C5AA070720"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F843999106E39AF"
 				item: { count: 1, id: "justdirethings:eclipsealloy_ingot" }

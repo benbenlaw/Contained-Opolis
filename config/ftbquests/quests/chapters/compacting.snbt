@@ -228,8 +228,8 @@
 		{
 			dep_control_pts: {
 				26D9C302307DE18F: [
-					6.892857142857146d
-					4.374319727891148d
+					7.285714285714285d
+					5.312159863945574d
 					-3.0714285714285765d
 					7.4457482993197175d
 				]
@@ -237,6 +237,7 @@
 			dependencies: ["26D9C302307DE18F"]
 			hide_until_deps_complete: true
 			id: "0108195534AF5DA5"
+			progression_mode: "linear"
 			rewards: [{
 				id: "1E44F98EA208936E"
 				item: {

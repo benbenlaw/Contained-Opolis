@@ -541,5 +541,24 @@
 			x: 1.0d
 			y: 9.0d
 		}
+		{
+			dependencies: ["4DA5532BADF76ABE"]
+			id: "7A97BBAFE76A07A8"
+			rewards: [{
+				id: "1B6FC7B15D2B9913"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AD8E5B11E299C04"
+				item: { count: 1, id: "woot_revived:copper_magmator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
 	]
 }

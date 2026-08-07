@@ -24,11 +24,11 @@ ServerEvents.recipes(event => {
     event.recipes.powah.energizing(["minecraft:diamond_block"], 'powah:niotic_crystal_block', 300000 * 9).id('contained:energizing/niotic_crystal_block')
     event.recipes.powah.energizing(["minecraft:emerald_block"], 'powah:spirited_crystal_block', 1000000 * 9).id('contained:energizing/spirited_crystal_block')
 
-
     //Replace
     event.replaceInput({ id: 'powah:crafting/dielectric_casing' }, 'minecraft:iron_ingot', 'oritech:plastic_sheet')
     event.replaceInput({ id: 'powah:crafting/capacitor_basic' }, 'minecraft:redstone_block', 'oritech:basic_battery')
     event.replaceInput({ id: 'powah:crafting/energizing_rod_starter' }, 'minecraft:quartz', '#c:storage_blocks/silver')
+    event.replaceInput({ id: 'powah:energizing/ender_core' }, 'minecraft:ender_eye', 'oritech:flux_gate')
 
     //Remove
     event.remove({ id: 'powah:crafting/dielectric_paste' })

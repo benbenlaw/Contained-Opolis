@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
             "count": 1,
             "id": "ae2:fluix_crystal"
         }
-    })
+    }).id('extendedae:assembler/fluix_crystal_emerald')
 
     // Fluix Crystal (Diamond Variant)
     event.custom({
@@ -65,5 +65,6 @@ ServerEvents.recipes(event => {
             "count": 1,
             "id": "ae2:fluix_crystal"
         }
-    })
+    }).id('extendedae:assembler/fluix_crystal_diamond')
+
 })

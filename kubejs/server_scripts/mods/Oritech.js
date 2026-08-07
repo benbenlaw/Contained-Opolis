@@ -46,6 +46,7 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'oritech:compat/powah/energizing/fluxite' })
   event.remove({ id: 'oritech:compat/powah/energizing/uranite' })
   event.remove({ id: 'oritech:compat/powah/energizing/uranite' })
+  event.remove({ id: 'oritech:compat/ae2/charger/fluxite' })
   event.remove({ id: 'oritech:particle/diamond' })
 
   //Replace Recipes

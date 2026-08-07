@@ -103,6 +103,7 @@
 	quest.09D15E4BA86FEE4E.quest_desc: ["More protection for &l&#6075ffCrystalore&r"]
 	quest.09D15E4BA86FEE4E.title: "Crystalore Prep"
 	quest.09E08C225DFADBF6.quest_desc: ["Smelted &lDust&r"]
+	quest.0A1BA3222E47F339.quest_desc: ["Tank from Sky Stone"]
 	quest.0A22C81B292D1FC9.quest_desc: ["Drops from a &lMysterious Block&r"]
 	quest.0A51E4F0CF3B96FA.title: "Large Asteroid"
 	quest.0A9933876E170AC8.quest_desc: ["Found inside the &l&6Cindrath Deltas&r"]
@@ -213,6 +214,7 @@
 	quest.14E1635D18635E99.quest_desc: ["Crafted &lSmall Dust&r"]
 	quest.15332DD8491B35F2.quest_desc: ["Crafted with &lGlass&r"]
 	quest.155DEB1001B13C18.quest_desc: ["Grown inside the &lCloche&r"]
+	quest.1565D3C6EA15B372.quest_desc: ["Can random polymorph mobs"]
 	quest.15B8656C63DCD7E2.quest_desc: ["Using a &lWater Bottle&r or a &lWater Drop&r on a &lDirt&r block will create &lMud&r"]
 	quest.15F1E1F02BDF5138.quest_desc: ["A stable conductive compound"]
 	quest.160478B20C93AE2A.quest_desc: ["Certain mobs require a certain tier of &lFactory&r. You must progress through each tier of &lShard Upgrade&r to get the &lNetherite Shard&r"]
@@ -330,7 +332,11 @@
 	quest.26541A1357B89F07.quest_desc: ["When in the &lUpgrade Slot&r allows for &lDiamond Shards&r to be dropped"]
 	quest.266EA03A1B979779.quest_desc: ["Pulverized &lAsteroid&r"]
 	quest.267B04ABDF4464FA.quest_desc: ["Pulverized &lAsteroid&r"]
-	quest.2698C59059989C2D.quest_desc: ["All of these materials come from &lMysterious Asteroids&r"]
+	quest.2698C59059989C2D.quest_desc: [
+		"All of these materials come from &lMysterious Asteroids&r"
+		""
+		"You can press &lG&r on it to see it in a larger view"
+	]
 	quest.26A46551E03101A0.quest_desc: ["Requires 8 of these"]
 	quest.26A633AE03DAD6A8.quest_desc: [
 		"Connect it using the &l&6Advanced Target Designator&r select the main &l&dParticle Accelerator&r by shift-clicking on it, then shift-click on the &6&lMagnetic field&r and &l&6Speed Sensor&r to link it."
@@ -526,7 +532,11 @@
 	quest.3C18E1A304CB0EEF.quest_desc: ["The final tier of &lFusion&r"]
 	quest.3C22D929B6CF3036.quest_desc: ["Made inside the &lAssembler&r"]
 	quest.3C6993A9C4C531E1.quest_desc: ["Can be melted for &lMolten Experience&r"]
-	quest.3C804ADDF2934D5B.quest_desc: ["All of these materials come from &lMysterious Asteroids&r"]
+	quest.3C804ADDF2934D5B.quest_desc: [
+		"All of these materials come from &lMysterious Asteroids&r"
+		""
+		"You can press &lG&r on it to see it in a larger view"
+	]
 	quest.3D0AE07C0F5EE0B3.quest_desc: ["Made in the &lFoundry&r"]
 	quest.3D66D8DC69F64E58.quest_desc: ["Made on the &lInfusion Altar&r"]
 	quest.3D6B8EF30CDCAAF6.quest_desc: ["Can be made inside the &lInscriber&r"]
@@ -818,8 +828,13 @@
 	quest.5F17D1CBADFF4C8D.quest_desc: ["Smelted &lAsteroid Dust&r"]
 	quest.5F6436394F2BA7C7.quest_desc: ["Placing a &lSand&r next to a &lPrimogel Goo&r will transform it into&l Soul Sand&r"]
 	quest.5FCFC4A423E0BBD0.quest_desc: ["A simple coil"]
+	quest.6030BE8CE9047932.quest_desc: ["Can be used to compress multiple machine addons into a single block"]
 	quest.60478D3105E7768D.quest_desc: ["Obtained from a &lMysterious Block&r"]
-	quest.60761705EAE627C9.quest_desc: ["Made with the &lEnderic Laser&r"]
+	quest.60761705EAE627C9.quest_desc: [
+		"Made with the &lEnderic Laser&r"
+		""
+		"With 3 yield addon on the laser you can get 4 Charged Certus Quartz Crystal"
+	]
 	quest.60773605EBB87D6B.quest_desc: [
 		"Made inside the &lMultiblock Controller&r with a &lMixer&r"
 		""
@@ -888,7 +903,7 @@
 	quest.6698E4A426B2DCE0.quest_desc: ["From &lBone Meal&r"]
 	quest.6723F1733AD58A60.quest_desc: ["Smelted &lDust&r"]
 	quest.672DEF20B6025BE0.quest_desc: ["A strange block that never breaks. Needs &lIron Tools&r or better to mine"]
-	quest.67B03CF63C0C6B55.quest_desc: ["Keys i remember these "]
+	quest.67B03CF63C0C6B55.quest_desc: ["Keys I remember these "]
 	quest.67B2C0658B35CD84.quest_desc: [
 		"Useful for mining tougher blocks."
 		""
@@ -1058,6 +1073,17 @@
 	quest.7A659B586B998EEB.quest_desc: ["Made when using a &lAsteroid Hammer&r on a &lPrimal Coal Block&r"]
 	quest.7A70FAE22E592E9A.quest_desc: ["Made inside the &lCentrifuge&r"]
 	quest.7A84A9941CF3C818.quest_desc: ["A dusty mix"]
+	quest.7A97BBAFE76A07A8.quest_desc: [
+		"The &lMagmator&r is the automation block for the &l&5Stygian Anvil&r."
+		""
+		"Place it underneath the anvil and each X ticks, it will try to craft the item and place it inside a neighbor chest. It will don't do anything if no chest are available at the side of the block."
+		""
+		"Copper Magmator: 50 ticks/craft"
+		"Iron Magmator: 20 ticks/craft"
+		"Gold Magmator: 10 ticks/craft"
+		"Diamond Magmator: 5 ticks/craft"
+		"Netherite Magmator: 1 ticks/craft"
+	]
 	quest.7AA9680D5A6889C5.quest_desc: ["The &lFactory Layout&r can be used to view required blocks needed for the structure. You need to work through each tier starting with &lCopper&r. The next tiers blocks are added to the excisting structure"]
 	quest.7ACB3D314D70EB17.quest_desc: ["Infused with the &lMob Shard&r mob"]
 	quest.7AD56E8C5F8EDF39.quest_desc: ["The &lGem Finder&r will search the area for &lDiamond,&r &lEmerald&r and &lAmethyst&r blocks inside &lGeodes&r. This only detects blocks on the same axis!"]

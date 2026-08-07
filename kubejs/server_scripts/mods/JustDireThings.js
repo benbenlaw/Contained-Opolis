@@ -10,6 +10,7 @@ ServerEvents.recipes(event => {
 
     //Replace Inputs
     event.replaceInput({ id: 'justdirethings:blockswappert2' }, 'minecraft:redstone', 'draconicevolution:small_chaos_frag')
+    event.replaceInput({ id: 'justdirethings:polymorphic_wand' }, 'justdirethings:fluid_canister', 'ae2:sky_stone_tank')
 
     //Upgrade Blank
     event.shaped('justdirethings:upgrade_blank', [' A ', 'ABA', ' A '], {

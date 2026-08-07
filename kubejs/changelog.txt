@@ -7,6 +7,20 @@ Contained
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Contained Opolis 5.4
+
+### Changes
+- Added Woot Magmator to the quests
+- Now shift + tab should work again in the quest menu
+- FTB Quest chapter list now shouldn't disappear 
+- Enabled FancyMenu Seamless World Loading
+- Disabled Wandering Trader and Villager trading
+- Made the Polymorhic Wand more expensive to craft
+- Added a GuideME page for the Mini Resource Clusters
+- Made the Ender Core cheaper
+- Made the Infinity Boosters require Enderic Compound instead of Eye of Ender
+- Woot Fluid Infuser now accepts Beef too
+
 # Contained Opolis 5.3
 
 ### Changes

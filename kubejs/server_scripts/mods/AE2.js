@@ -5,7 +5,6 @@ ServerEvents.recipes(event => {
     // Remove
     event.remove({ id: 'ae2:inscriber/ae2_sky_stone_block' })
     event.remove({ id: 'ae2:charger/guide' })
-    event.remove({ id: 'oritech:compat/ae2/charger/fluxite' })
     event.remove({ id: 'ae2:charger/meteorite_compass' })
     event.remove({ id: 'ae2:charger/charged_certus_quartz_crystal' })
     event.remove({ id: 'ae2:transform/fluix_crystals' })

@@ -76,7 +76,7 @@ ServerEvents.tags("item", (event) => {
         'swiss:crafting_item_panel',
         'swiss:exporter_item_interface',
         'swiss:importer_item_interface',
-        'swiss:storage_item_panel'
+        'swiss:storage_item_panel',
     ]);
 });
 
