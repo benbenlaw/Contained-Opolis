@@ -79,7 +79,7 @@ StartupEvents.registry('item', event => {
   event.create("contained:bio_spores")
   event.create("contained:bio_sapling")
   event.create("contained:elemental_essence")
-  event.create("contained:certus_quartz_shard").displayName("Certus Quartz Geore Shard")
+  event.create("contained:certus_quartz_shard").displayName("Certus Quartz GeOre Shard")
   event.create("contained:budding_core")
   event.create("contained:wardens_heart")
   event.create("contained:budding_heart")

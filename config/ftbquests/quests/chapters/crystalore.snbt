@@ -800,5 +800,25 @@
 			x: 1.0d
 			y: 12.0d
 		}
+		{
+			dependencies: ["2EFC6ED67A871595"]
+			id: "42315F5C90544073"
+			optional: true
+			rewards: [{
+				id: "3B405D82E132AADC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BD3584B78CBE402"
+				item: { count: 1, id: "minecraft:ice" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
 	]
 }

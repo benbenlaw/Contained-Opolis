@@ -2,11 +2,11 @@
   "item_settings": {
     "display_name": {
       "type": "translatable",
-      "translate": "Compact Crafting Guide Book"
+      "translate": "Contained Opolis Guide Book"
     },
     "tooltip_lines": [
       {
-        "text": "The Ultimate Compact Crafting Guide Book",
+        "text": "The Ultimate Contained Opolis Guide Book",
         "color": "dark_gray"
       }
     ],

@@ -47,6 +47,7 @@
 	quest.0182A7CF483EA97C.quest_desc: ["A block of slime"]
 	quest.01838B662393F676.quest_desc: ["Crafted &lSmall Dust&r"]
 	quest.01C00CCE9E28F2CC.quest_desc: ["Crafted &lSmall Dust&r"]
+	quest.01D66285A89FD936.quest_desc: ["Can be used to automate &lIce&r production"]
 	quest.023992C0B67D0FDD.quest_desc: ["Pulverized &lAsteroid&r"]
 	quest.024B17958331B403.quest_desc: ["Allows quick crafting of items from your inventory or from chest in 5 block range"]
 	quest.026186F2325DCF96.quest_desc: ["Made with &lChaotic Fustion Crafting&r. The &2&lBudding Time Crystal Block&r&r need to be infused with the energy of different dimensions. First back to &l&6Cindrath&r"]
@@ -397,7 +398,9 @@
 	quest.2BAD90CF6C0BA15B.quest_desc: [
 		"This can be used to collect deposits found around &l&6Cindrath,&r &l&#6075ffCrystalore&r and &l&7Fractoria&r"
 		""
-		"The drill can also be used to harvest &lMysterious Blocks&r for example &lOrange Mysterious Asteroid Block&r will get &lCopper Dust&r"
+		"The drill can also be used to harvest &lMysterious Blocks&r for example &lOrange Mysterious Asteroid Block&r will get &lCopper Dust&r for the rest of the list you can press &lG&r on the &lMysterious Block Extractor&r"
+		""
+		"If you change the block under it you need to right click on it for it to register it"
 	]
 	quest.2BB9AA84C80520E9.quest_desc: ["Can be used to dry items and blocks"]
 	quest.2BD3113E010CC0D2.quest_desc: [
@@ -460,6 +463,14 @@
 	quest.30FFA05F0DAAB716.quest_desc: ["Made in the &lFoundry&r"]
 	quest.317CF33AF442AB1F.quest_desc: ["The &lInventory Proxy Addon&r allows you to better control the items that go into an Inventory"]
 	quest.31820E06D5E6D188.quest_desc: ["Smelted &lDust&r"]
+	quest.3182D266BB928C66.quest_desc: [
+		"Look a Draconic Evolution Fusion recipe up in JEI, open a ME Pattern Encoding Terminal, and click the + on the recipe: the blank pattern comes back as a &l&6Fusion Crafting Pattern&r"
+		""
+		"Add an Import Card to the Pattern Provider so the finished item comes back out of the Core into the network"
+		""
+		"For more information you can press G on a &l&6Fusion Crafting Pattern&r"
+	]
+	quest.3182D266BB928C66.title: "Fusion Crafting Patterns"
 	quest.3189506A0D1DD5BD.quest_desc: ["Stores RF, Red side is output and green is input"]
 	quest.31952EB64743BB67.quest_desc: ["Drops from a &lMysterious Block&r"]
 	quest.31C467AB580424C8.quest_desc: ["Basic &lShears&r"]
@@ -582,6 +593,7 @@
 	quest.41E7536BA9F80427.title: "Fractoria Portal"
 	quest.41E9719A42B4781A.quest_desc: ["Crafted &lDust&r"]
 	quest.41EC355F098E19A6.quest_desc: ["A strange block that never breaks. Needs &lIron Tools&r or better to mine"]
+	quest.42315F5C90544073.quest_desc: ["You can mine &lIce&r with &lSilk Touch&r enchant or modifier"]
 	quest.4264BB0601141011.quest_desc: ["Part of a multiblock"]
 	quest.427966E517FCCF08.quest_desc: ["&lAsteroid Dust&r and &lResources&r"]
 	quest.42B95586E6D5811C.quest_desc: [
@@ -685,6 +697,7 @@
 	quest.4DA4D2A00FD1F26D.quest_subtitle: "Decorative"
 	quest.4DA5532BADF76ABE.quest_desc: ["Made on the &5&lStygian Anvil&r"]
 	quest.4DBD0494A9A9E11B.quest_desc: ["Processed &lCrystalline&r"]
+	quest.4E0E0AB3FF3C7AE5.quest_desc: ["One block that runs a whole fusion crafting. No Crafting Core, no Injectors, no alignment: the Matrix stages the ingredients itself, charges on raw energy, and hands the finished item back to the network."]
 	quest.4E0E3C705BD5410A.quest_desc: ["&lHappy Ghasts&r can be summoned using the &lSummoning Block&r. When equiped with a &lHarness&r can be controlled and used to fly around in &lSpace&r"]
 	quest.4E2B4445927F9A61.quest_desc: ["Requires 4 of these"]
 	quest.4E5B532B58CD9523.quest_desc: ["Smelted &lDust&r"]
@@ -701,7 +714,6 @@
 	quest.4FBCDF51660C3CC5.title: "Raw Eclipse Alloy"
 	quest.4FD1BB2675B91B55.quest_desc: ["Motors are used for a lot of machines"]
 	quest.5031A070DD8EE925.quest_desc: ["Obtained in the &lCloche&r"]
-	quest.5050BB3F21A5FD5E.quest_desc: ["Can be used to automate the Fusion Crafting"]
 	quest.506BACF8184F9E1C.quest_desc: ["Obtained inside the &lLarge Blue Asteroid&r"]
 	quest.509ED65BD15BFC2D.quest_desc: ["Made inside the &lAssembler&r from &lBlue&r and &lGreen Asteroids&r"]
 	quest.509ED65BD15BFC2D.quest_subtitle: "certus"
@@ -786,6 +798,13 @@
 	quest.5A17E9E5CD068B8B.quest_desc: ["&lAsteroid Dust&r and &lResources&r"]
 	quest.5A1BB6D84C9E84AB.quest_desc: ["Smelted &lRaw Ore&r. Makes some great tools with a higher durability than &lIron Tools&r"]
 	quest.5A65BD4034CCFF58.quest_desc: ["Made inside the &lEnergizing Orb&r"]
+	quest.5A7DF1D11D52A81A.quest_desc: [
+		"Build the projector field as you normally would, then place the Controller so it touches one of the four projectors on any face."
+		""
+		"Put a Pattern Provider against any side of the Controller and drop Miniaturization Pattern patterns in it. The Controller buffers the blocks and the catalyst as they arrive."
+		""
+		"The Controller is an ME machine: it joins the network through its own grid connection, draws a small standing power cost, and returns finished items to the Provider on its own. It needs no Import Card."
+	]
 	quest.5AA091C6158AFC24.quest_desc: ["Expertly destroyed "]
 	quest.5AD4EE724B332621.quest_desc: ["Can be used to make a better key"]
 	quest.5AD6B428EE43837B.quest_desc: ["A horrible place to live"]
@@ -845,6 +864,7 @@
 	quest.60B2631BF00EA274.quest_desc: ["Pulverized &lAsteroid&r"]
 	quest.60E726B0EC6FAD61.quest_desc: ["Makes items/fluids/energy in connected inventories available to the network"]
 	quest.60E726B0EC6FAD61.title: "Integrated Interfaces"
+	quest.60F8737A1FA3F6E6.quest_desc: ["Best Solid Coolant for the &lReactor&r"]
 	quest.61696C9F0FAA6099.quest_desc: ["A &lMultiblock Controller&r"]
 	quest.6191019505CAC88F.quest_desc: ["A better source of power, require &lOil&r or &lTurbo Fuel&r"]
 	quest.6197E9A63931515C.quest_desc: ["Can be placed above a &lStrainer&r to prevent spills"]
@@ -1160,6 +1180,7 @@
 	task.15BC4CA10BF0D76B.title: "Upgrades"
 	task.173DCBADE801AE91.title: "The End"
 	task.18D78C49F671EA9E.title: "Creators"
+	task.1BC6F4EBF70E352B.title: "Draconic Evolution Patterns"
 	task.1C4D3B06253F6A1C.title: "Refined Construction Stick"
 	task.1C78778A7CA072E2.title: "Public Server"
 	task.1E2878F3C716CBD9.title: "beds/ set spawn"

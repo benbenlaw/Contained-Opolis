@@ -444,10 +444,70 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6908E24B3E685E94"]
-			id: "5050BB3F21A5FD5E"
+			dependencies: ["119FDAC761B1AF94"]
+			icon: {
+				components: {
+					"nep:encoded_fusion_crafting_pattern": {
+						inputs: [
+							{
+								"#": 1L
+								"#t": "ae2:i"
+								id: "draconicevolution:basic_crafting_injector"
+							}
+							{
+								"#": 1L
+								"#t": "ae2:i"
+								id: "draconicevolution:wyvern_core"
+							}
+							{
+								"#": 1L
+								"#t": "ae2:i"
+								id: "minecraft:diamond"
+							}
+							{
+								"#": 1L
+								"#t": "ae2:i"
+								id: "draconicevolution:draconium_core"
+							}
+							{
+								"#": 1L
+								"#t": "ae2:i"
+								id: "minecraft:diamond"
+							}
+							{
+								"#": 1L
+								"#t": "ae2:i"
+								id: "draconicevolution:draconium_core"
+							}
+							{
+								"#": 1L
+								"#t": "ae2:i"
+								id: "minecraft:diamond"
+							}
+							{
+								"#": 1L
+								"#t": "ae2:i"
+								id: "draconicevolution:draconium_block"
+							}
+							{
+								"#": 1L
+								"#t": "ae2:i"
+								id: "minecraft:diamond"
+							}
+						]
+						recipe: "draconicevolution:machines/wyvern_crafting_injector"
+						result: {
+							"#": 1L
+							"#t": "ae2:i"
+							id: "draconicevolution:wyvern_crafting_injector"
+						}
+					}
+				}
+				id: "nep:fusion_crafting_pattern"
+			}
+			id: "3182D266BB928C66"
 			rewards: [{
-				id: "61BFC34552485FAB"
+				id: "20575093FB9497E1"
 				item: {
 					count: 1
 					id: "shops:copper_coin"
@@ -455,12 +515,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "71A4EF6E8E3B6D19"
-				item: { count: 1, id: "ae2_draconic_fusion_autocrafter:me_draconic_pattern_provider" }
-				type: "item"
+				id: "1BC6F4EBF70E352B"
+				type: "checkmark"
 			}]
 			x: 1.0d
-			y: 10.5d
+			y: 9.5d
 		}
 	]
 }

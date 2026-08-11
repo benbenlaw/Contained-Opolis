@@ -7,6 +7,18 @@ Contained
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Contained Opolis 6.0
+
+### Changes
+- Added KubeJS Oritech mod and change all custom events to use the KubeJS Oritech ones
+- Disabled Particle Accelerator creating Nether and End Portals
+- Fixed some Centrifuge fluid recipes starting even when there wasn't a fluid addon on the machine
+- Boosted Oritech Power Generators and added Molten Blaze as fuel for the Lava Generator 
+- Changed the Oritech Tank to be unstackable to fix a fluid duplication bug
+- Added a GuideME page for the Mysterious Block Extractor
+- Added Not Enough Patterns to replace AE2 Draconic Fusion Autocrafter because it has an item dupe bug
+- Added Sheol Fire as a fuel for Casting and Magmator
+
 # Contained Opolis 5.4
 
 ### Changes

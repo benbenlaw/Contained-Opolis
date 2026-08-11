@@ -77,6 +77,8 @@ ServerEvents.tags("item", (event) => {
         'swiss:exporter_item_interface',
         'swiss:importer_item_interface',
         'swiss:storage_item_panel',
+        'nep:infused_awakening_matrix',
+        'nep:miniaturization_matrix'
     ]);
 });
 

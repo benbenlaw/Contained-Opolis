@@ -386,5 +386,28 @@
 			x: -1.0d
 			y: 0.0d
 		}
+		{
+			dependencies: [
+				"6E53E53002FF0893"
+				"3C18E1A304CB0EEF"
+			]
+			id: "4E0E0AB3FF3C7AE5"
+			optional: true
+			rewards: [{
+				id: "128F18A1EF381295"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60C104630C91F236"
+				item: { count: 1, id: "nep:fusion_matrix" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
 	]
 }

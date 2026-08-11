@@ -176,7 +176,7 @@
 			maxEnergyExtraction = 512
 			# Default: 64
 			# Range: > 0
-			energyPerTick = 64
+			energyPerTick = 128
 
 		[machineSettings.generators.lavaGeneratorData]
 			# Default: 100000
@@ -190,7 +190,7 @@
 			maxEnergyExtraction = 512
 			# Default: 64
 			# Range: > 0
-			energyPerTick = 64
+			energyPerTick = 256
 
 		[machineSettings.generators.fuelGeneratorData]
 			# Default: 250000
@@ -204,7 +204,7 @@
 			maxEnergyExtraction = 2048
 			# Default: 256
 			# Range: > 0
-			energyPerTick = 256
+			energyPerTick = 1024
 
 		[machineSettings.generators.steamEngineData]
 			# Default: 100000
@@ -220,9 +220,9 @@
 			#Energy per steam unit in the steam engine
 			# Default: 1
 			# Range: > 0
-			steamToRfRatio = 1
+			steamToRfRatio = 2
 			#When enabled, the steam engine stops when energy storage is full
-			stopOnEnergyFull = false
+			stopOnEnergyFull = true
 			#When enabled, the steam engine stops when the water tank is full. Must be pumped out to resume.
 			stopOnWaterFull = true
 			#Steam capacity of steam-boiler generators and the steam engine, in buckets
@@ -242,7 +242,7 @@
 			maxEnergyExtraction = 256
 			# Default: 32
 			# Range: > 0
-			energyPerTick = 32
+			energyPerTick = 64
 
 	[machineSettings.laserArmConfig]
 		# Default: 20000

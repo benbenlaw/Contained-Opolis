@@ -279,5 +279,24 @@
 			x: 1.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["2BD3113E010CC0D2"]
+			id: "5A7DF1D11D52A81A"
+			rewards: [{
+				id: "17FB0C35F18B7886"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C6FCD71FB0DF615"
+				item: { count: 1, id: "nep:miniaturization_controller" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
 	]
 }

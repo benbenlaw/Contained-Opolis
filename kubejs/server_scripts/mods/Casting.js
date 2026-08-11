@@ -31,6 +31,7 @@ ServerEvents.recipes(event => {
     //Fuels
     event.recipes.casting.fuel("8x oritech:still_biofuel", 1000, 400).id("contained:casting/fuel/oritech_still_biofuel")
     event.recipes.casting.fuel("25x oritech:still_diesel", 1200, 100).id("contained:casting/fuel/oritech_still_diesel")
+    event.recipes.casting.fuel("25x oritech:still_sheol_fire", 2000, 5).id("contained:casting/fuel/oritech_still_diesel")
 
     //Coolants
     event.recipes.casting.coolant("20x justdirethings:polymorphic_fluid_source", 100).id("contained:casting/coolant/justdirethings_polymorphic_fluid_source")

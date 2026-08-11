@@ -2,7 +2,7 @@
   "id": "geore_shards",
   "name": {
     "translate": "collapsible_groups.group.geore_shards",
-    "fallback": "Geore Shards"
+    "fallback": "GeOre Shards"
   },
   "enabled": true,
   "filter": {

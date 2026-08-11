@@ -3,6 +3,7 @@
 PowahEvents.registerMagmaticFluid(event => {
     event.add("oritech:still_biofuel", 5000);
     event.add("oritech:still_diesel", 35000);
+    event.add("oritech:still_sheol_fire", 70000); // 2x as dense as diesel
     event.add("oritech:still_fuel", 140000); // 4x as dense as diesel
     event.add("contained:blazing_turbofuel", 560000); // 4x as dense as turbofuel
 })

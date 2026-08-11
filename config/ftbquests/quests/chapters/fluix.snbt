@@ -149,7 +149,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["02F6D68CC111D9CC"]
+			dependencies: [
+				"02F6D68CC111D9CC"
+				"60F8737A1FA3F6E6"
+			]
 			id: "56CB8E4693E00C3E"
 			rewards: [{
 				id: "24C9D89A1F6E78BB"
@@ -516,6 +519,46 @@
 			}]
 			x: -3.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["01D66285A89FD936"]
+			id: "60F8737A1FA3F6E6"
+			optional: true
+			rewards: [{
+				id: "274259A1A1FE281F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46C5A30F0E7401FB"
+				item: { count: 1, id: "powah:dry_ice" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["42315F5C90544073"]
+			id: "01D66285A89FD936"
+			optional: true
+			rewards: [{
+				id: "4B1D4D8AB67AC327"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A24B7958FFAF539"
+				item: { count: 1, id: "oritech:cooler_block" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
 		}
 	]
 }
