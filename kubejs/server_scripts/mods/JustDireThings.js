@@ -11,6 +11,13 @@ ServerEvents.recipes(event => {
     //Replace Inputs
     event.replaceInput({ id: 'justdirethings:blockswappert2' }, 'minecraft:redstone', 'draconicevolution:small_chaos_frag')
     event.replaceInput({ id: 'justdirethings:polymorphic_wand' }, 'justdirethings:fluid_canister', 'ae2:sky_stone_tank')
+    event.replaceInput({ id: 'justdirethings:upgrade_dropteleport' }, 'minecraft:ender_chest', '#c:chests')
+    event.replaceInput({ id: 'justdirethings:upgrade_nightvision' }, 'minecraft:ender_eye', 'minecraft:ender_pearl')
+    event.replaceInput({ id: 'justdirethings:blockplacert2' }, 'minecraft:ender_eye', 'oritech:flux_gate')
+    event.replaceInput({ id: 'justdirethings:clickert2' }, 'minecraft:ender_eye', 'oritech:flux_gate')
+    event.replaceInput({ id: 'justdirethings:droppert2' }, 'minecraft:ender_eye', 'oritech:flux_gate')
+    event.replaceInput({ id: 'justdirethings:fluidplacert2' }, 'minecraft:ender_eye', 'oritech:flux_gate')
+    event.replaceInput({ id: 'justdirethings:fluidcollectort2' }, 'minecraft:ender_eye', 'oritech:flux_gate')
 
     //Upgrade Blank
     event.shaped('justdirethings:upgrade_blank', [' A ', 'ABA', ' A '], {

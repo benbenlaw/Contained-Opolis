@@ -140,6 +140,9 @@ ServerEvents.tags("block", event => {
         "minecraft:torch", "minecraft:wall_torch", "#minecraft:crops", "#minecraft:saplings"
     ])
 
+    //Oritech Fix
+    event.get("ftbultimine:excluded_blocks").add("@oritech")
+
     //Nether Portal Blocks
     event.get('bblcore:nether_portal_frame').remove('minecraft:obsidian')
 

@@ -168,7 +168,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0B929F18D833336A"]
@@ -187,7 +187,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5BC5173240A8B37C"]
@@ -231,7 +231,7 @@
 				type: "observation"
 			}]
 			x: -2.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["417E0CC5B3B94076"]
@@ -250,7 +250,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2EAAC40E8A7DA32C"]
@@ -269,7 +269,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["136ACCF44D28FE3B"]
@@ -288,7 +288,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2EAAC40E8A7DA32C"]
@@ -308,7 +308,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["61FBB2E2C2AA5D51"]
@@ -337,7 +337,7 @@
 				}
 			]
 			x: -1.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["552BB7E2A943A6E0"]
@@ -362,7 +362,7 @@
 				type: "observation"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0F74FC9790BC13E2"]
@@ -381,7 +381,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7474BBC9AA8259DE"]
@@ -400,7 +400,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["513A696C65E965D4"]
@@ -419,7 +419,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5DE57274DE89E78A"]
@@ -438,7 +438,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["659B46412BD87214"]
@@ -538,7 +538,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["42315F5C90544073"]
@@ -558,7 +558,27 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["659B46412BD87214"]
+			id: "30234C458FBE83B9"
+			optional: true
+			rewards: [{
+				id: "76E3843FB27D61B0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45AFF1F0B2D58462"
+				item: { count: 1, id: "integrateddynamics:proto_chorus" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
 		}
 	]
 }

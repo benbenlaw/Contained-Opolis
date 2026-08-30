@@ -1,0 +1,12 @@
+{
+  "id": "wooden_buckets",
+  "name": {
+    "translate": "collapsible_groups.group.wooden_buckets",
+    "fallback": "Wooden Buckets"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "namespace": "woodenbucket"
+  }
+}

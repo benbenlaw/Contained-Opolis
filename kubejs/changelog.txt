@@ -7,6 +7,15 @@ Contained
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Contained Opolis 6.1
+
+### Changes
+- Excluded Oritech blocks from FTB Ultimine to fix a bug where drops would be voided server-wide until restart
+- Changed Just Dire Things Advanced Machines, Drop Teleport, and Night Vision Upgrades to no longer require Eye of Ender
+- Added Proto Chorus to the quests
+- Hide the Collaspible Groups Manager Button
+- Added a recipe for the Room Key Block
+
 # Contained Opolis 6.0
 
 ### Changes

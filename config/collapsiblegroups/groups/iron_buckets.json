@@ -1,0 +1,228 @@
+{
+  "id": "iron_buckets",
+  "name": {
+    "translate": "collapsible_groups.group.iron_buckets",
+    "fallback": "Iron Buckets"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "woot_revived:mob_tears_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "woot_revived:enchanted_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "woot_revived:pure_dye_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "woot_revived:vitality_fuel_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "supplementaries:lumisene_bucket"
+      },
+      {
+        "type": "item",
+        "id": "oritech:still_strange_matter_bucket"
+      },
+      {
+        "type": "item",
+        "id": "oritech:still_sheol_fire_bucket"
+      },
+      {
+        "type": "item",
+        "id": "oritech:still_mineral_slurry_bucket"
+      },
+      {
+        "type": "item",
+        "id": "oritech:still_silicon_wash_bucket"
+      },
+      {
+        "type": "item",
+        "id": "oritech:still_sulfuric_acid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "oritech:still_naphtha_bucket"
+      },
+      {
+        "type": "item",
+        "id": "oritech:still_diesel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "oritech:still_heavy_oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "oritech:still_steam_bucket"
+      },
+      {
+        "type": "item",
+        "id": "oritech:still_biofuel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "oritech:still_fuel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "oritech:still_oil_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagradditions:molten_soulium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagradditions:molten_supremium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagradditions:molten_imperium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagradditions:molten_tertium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:cod_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:salmon_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:tropical_fish_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:pufferfish_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:axolotl_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:tadpole_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:sulfur_cube_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:powder_snow_bucket"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:milk_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:chilled_water_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:iced_water_bucket"
+      },
+      {
+        "type": "item",
+        "id": "casting:super_coolant_bucket"
+      },
+      {
+        "type": "item",
+        "id": "contained:mysterious_alloy_bucket"
+      },
+      {
+        "type": "item",
+        "id": "contained:goo_stew_t1_bucket"
+      },
+      {
+        "type": "item",
+        "id": "contained:goo_stew_t2_bucket"
+      },
+      {
+        "type": "item",
+        "id": "contained:goo_stew_t3_bucket"
+      },
+      {
+        "type": "item",
+        "id": "contained:goo_stew_t4_bucket"
+      },
+      {
+        "type": "item",
+        "id": "contained:blazing_turbofuel_bucket"
+      },
+      {
+        "type": "item",
+        "id": "integrateddynamics:bucket_liquid_chorus"
+      },
+      {
+        "type": "item",
+        "id": "integrateddynamics:bucket_menril_resin"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:polymorphic_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:portal_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:time_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:unstable_portal_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:unrefined_t2_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:refined_t2_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:unrefined_t3_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:refined_t3_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:unrefined_t4_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:refined_t4_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:xp_fluid_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagradditions:molten_inferium_bucket"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagradditions:molten_prudentium_bucket"
+      }
+    ]
+  }
+}

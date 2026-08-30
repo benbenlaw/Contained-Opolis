@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "solar_6D07347E49A3BC52"
+	filename: "solar_6d07347e49a3bc52"
 	group: "54C9DD242F539EC9"
 	icon: {
 		id: "oritech:big_solar_panel_block"

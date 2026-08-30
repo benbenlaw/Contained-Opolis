@@ -54,6 +54,11 @@
 			# Default: 10
 			# Range: 0 ~ 1000000
 			idleMeNetworkDrain = 10
+			#Channels the Matrix takes up on its ME network. Any value above 8 has to pass through dense cables.
+			#This is read once when the Matrix joins a network, so changing it needs a world reload. Set to 0 for a Matrix that takes up no channels at all.
+			# Default: 15
+			# Range: 0 ~ 128
+			meNetworkChannels = 15
 
 	#Apothic Enchanting integration.
 	[modules.apothic_enchanting]
@@ -106,6 +111,11 @@
 			# Default: 10
 			# Range: 0 ~ 1000000
 			idleMeNetworkDrain = 10
+			#Channels the Controller takes up on its ME network. Any value above 8 has to pass through dense cables.
+			#This is read once when the Controller joins a network, so changing it needs a world reload. Set to 0 for a Controller that takes up no channels at all.
+			# Default: 7
+			# Range: 0 ~ 128
+			meNetworkChannels = 7
 
 		#Miniaturization Matrix:
 		[modules.compactcrafting.miniaturizationMatrix]
@@ -131,6 +141,11 @@
 			# Default: 10
 			# Range: 0 ~ 1000000
 			idleMeNetworkDrain = 10
+			#Channels the Matrix takes up on its ME network. Any value above 8 has to pass through dense cables.
+			#This is read once when the Matrix joins a network, so changing it needs a world reload. Set to 0 for a Matrix that takes up no channels at all.
+			# Default: 15
+			# Range: 0 ~ 128
+			meNetworkChannels = 15
 
 	#Create integration.
 	[modules.create]
@@ -138,12 +153,14 @@
 		#When disabled, every Create module below is disabled regardless of its own toggle.
 		allow_create_module = false
 		#Spout Filling Module: Automates `create:filling` recipes and Create's generic bucket and bottle filling.
+		#Covers both machines: a Spout over a Depot, and the Assembly Matrix, which fills without either.
 		filling = true
 
 		#Deployer Module:
 		[modules.create.deploying]
 			#Automates the Deployer for create:deploying and create:item_application recipes.
 			#The Depot is the machine: the base item is staged on it and a Deployer two blocks above presses onto it.
+			#The Assembly Matrix runs the same recipes on its own, with no Depot or Deployer built.
 			enabled = true
 			#Allows Deployers holding an axe strip a log on a Depot. Depends on the deploying module above.
 			#Adds a real Deploying recipe for every log in #minecraft:logs that an axe can strip. The axe is not consumed and takes no damage, matching Create's own axe recipes for de-oxidising copper.
@@ -187,15 +204,20 @@
 			# Default: 200
 			# Range: 0 ~ 24000
 			reclaimGrace = 200
+			#Channels the Controller takes up on its ME network. Any value above 8 has to pass through dense cables.
+			#This is read once when the Controller joins a network, so changing it needs a world reload. Set to 0 for a Controller that takes up no channels at all.
+			# Default: 7
+			# Range: 0 ~ 128
+			meNetworkChannels = 7
 
-		#Sequenced Assembly Matrix:
+		#Assembly Matrix:
 		[modules.create.sequencedAssemblyMatrix]
-			#The Sequenced Assembly Matrix runs a whole sequenced assembly recipe inside a single block.
+			#The Assembly Matrix runs a whole sequenced assembly recipe inside a single block.
 			enabled = false
 			#Bypasses the output chances of sequenced assembly recipes, so the Matrix craft always yields the recipe's primary result.
 			#When disabled, the Matrix rolls the recipe's result pool exactly as a physical line does: unlucky rolls produce junk, which is placed into network storage, and the ingredients for that attempt are lost.
 			guaranteedResults = true
-			#Treats the Sequenced Assembly Matrix as a requester, allowing it to auto-pull, auto-craft, and auto-request a set of recipe ingredients from the ME network when a craft it owes is left without materials.
+			#Treats the Assembly Matrix as a requester, allowing it to auto-pull, auto-craft, and auto-request a set of recipe ingredients from the ME network when a craft it owes is left without materials.
 			#This lets a Matrix with guaranteedResults disabled retry after a chance recipe rolls junk. When disabled, an unlucky streak stalls the crafting network until manually fixed.
 			autoRequest = true
 			#Energy the Matrix draws from its ME network while assembling, in AE per tick. Progress stops whenever the network cannot supply this much power.
@@ -237,6 +259,11 @@
 			# Default: 100000
 			# Range: 1 ~ 2147483647
 			chargeRate = 100000
+			#Channels the Matrix takes up on its ME network. Anything above 8 has to connect via a dense cable, and a network with no ME Controller cannot carry more than 8 channels in total.
+			#This is read once when the Matrix joins a network, so changing it needs a world reload. Set to 0 for a Matrix that takes up no channels at all.
+			# Default: 15
+			# Range: 0 ~ 128
+			meNetworkChannels = 15
 
 	#Draconic Evolution integration.
 	[modules.draconicevolution]
@@ -246,11 +273,11 @@
 		#Fusion Crafting Module: The Crafting Core is the machine, and the network stages the catalyst in the core, loads every Crafting Injector around it, and starts the craft.
 		fusionCrafting = true
 
-		#Fusion Matrix:
+		#Injector Fusion Matrix:
 		[modules.draconicevolution.fusionMatrix]
-			#The Fusion Matrix runs a whole fusion crafting recipe inside a single block, with no Crafting Core or Injectors.
+			#The Injector Fusion Matrix runs a whole fusion crafting recipe inside a single block, with no Crafting Core or Injectors.
 			enabled = true
-			#Treats the Fusion Matrix as a requester, allowing it to auto-pull, auto-craft, and auto-request a set of recipe ingredients from the ME network when a craft it owes is left without materials.
+			#Treats the Injector Fusion Matrix as a requester, allowing it to auto-pull, auto-craft, and auto-request a set of recipe ingredients from the ME network when a craft it owes is left without materials.
 			#When disabled, a Matrix left short of materials stalls until you restock it by hand.
 			autoRequest = true
 			#Energy a Matrix craft costs, as a percentage of the fusion recipe's own energy cost.
@@ -282,8 +309,13 @@
 			idleMeNetworkDrain = 10
 			#Highest fusion recipe tier the Matrix will run: 'draconium', 'wyvern', 'draconic', or 'chaotic'.
 			maximumTier = "chaotic"
+			#Channels the Matrix takes up on its ME network. Any value above 8 has to pass through dense cables.
+			#This is read once when the Matrix joins a network, so changing it needs a world reload. Set to 0 for a Matrix that takes up no channels at all.
+			# Default: 15
+			# Range: 0 ~ 128
+			meNetworkChannels = 15
 
-			#Draconic Evolution cores slotted into the Fusion Matrix's upgrade slot tune the machine to the tier of core it holds. Each higher tier compounds lower tiers' upgrades.
+			#Draconic Evolution cores slotted into the Injector Fusion Matrix's upgrade slot tune the machine to the tier of core it holds. Each higher tier compounds lower tiers' upgrades.
 			#One slot means one tier at a time; Wyvern Cores increases energy buffer; Draconic Cores also increase fusion speed; Chaotic Cores also decrease energy costs.
 			[modules.draconicevolution.fusionMatrix.upgrades]
 				#Quantity of Cores accepted. Each is measured against a full slot, so lowering this makes each core better.
@@ -366,6 +398,11 @@
 			# Default: 10
 			# Range: 0 ~ 1000000
 			idleMeNetworkDrain = 10
+			#Channels the Matrix takes up on its ME network. Any value above 8 has to pass through dense cables.
+			#This is read once when the Matrix joins a network, so changing it needs a world reload. Set to 0 for a Matrix that takes up no channels at all.
+			# Default: 15
+			# Range: 0 ~ 128
+			meNetworkChannels = 15
 
 #Pattern Provider behaviour.
 [provider]
@@ -404,11 +441,31 @@
 	maximumLinks = 24
 	#How many blocks the Machine Hub's scan may walk through before it stops, which is what bounds the cost of pressing the button.
 	#The scan spreads from the blocks touching the Hub through anything that looks like part of the same machine, so it never walks off into the terrain and rarely gets near this ceiling. Raise it for a machine larger than the budget can cover.
-	# Default: 16
-	# Range: 4 ~ 128
+	# Default: 128
+	# Range: 4 ~ 1024
 	scanBudget = 16
 	#How many plain blocks in a row the Machine Hub's scan may step through between one machine part and the next.
 	#The scan travels freely through blocks carrying a block entity, which is every hatch, port and controller. Everything else is casing, and casing is only crossed for this many blocks at a time, and only when it belongs to a mod that already owns a machine part nearby. Raise it for a multiblock with thick walls between its hatches; set it to zero to have the scan follow machine parts alone.
 	# Default: 3
 	# Range: 0 ~ 8
 	casingDepth = 3
+	#Blocks the Machine Hub's scan always treats as machine parts, written as block ids (modid:block) or mod id regex (modid:*).
+	#Whatever stands against a whitelisted block is trusted the way blocks touching the Hub are, and a whitelisted casing is crossed without counting against casingDepth.
+	#The block tag nep:machine_hub/parts does the same thing in a datapack.
+	scanWhitelist = []
+	#Blocks the Machine Hub's scan never walks through and never proposes, written as block ids (modid:block) or mod id regex (modid:*). The blacklist wins over the whitelist.
+	#The block tag nep:machine_hub/blocked does the same thing in a datapack, and ships with common player storage (chests, barrels, shulker boxes) and general terrain and building blocks (dirt, stone, sand, wood, wool, concrete) already in it.
+	scanBlacklist = []
+	#Blocks a Machine Hub refuses to link at all, even from a Hub Linker plan, written as block ids (modid:block) or a mod id regex (modid:*).
+	#The scan can still go through them to whatever lies beyond. The block tag nep:machine_hub/unlinkable does the same thing in a datapack.
+	linkBlacklist = []
+	#Channels the Machine Hub takes up on its ME network before its links are counted. Each linked inventory adds meNetworkChannelsPerLink on top, and anything above 8 has to pass through dense cables.
+	#This is read once when the Hub joins a network, so changing it needs a world reload. Set both this and meNetworkChannelsPerLink to 0 for a Hub that takes up no channels at all.
+	# Default: 11
+	# Range: 0 ~ 128
+	meNetworkChannels = 11
+	#Channels each inventory linked to the Machine Hub adds to what the Hub takes up, standing in for a bus each hatch would otherwise need.
+	#A Hub can take up to the channel limit at most depending on your AE2 config. Set to 0 to have links cost nothing.
+	# Default: 1
+	# Range: 0 ~ 128
+	meNetworkChannelsPerLink = 1

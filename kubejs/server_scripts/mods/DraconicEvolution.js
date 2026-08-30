@@ -33,6 +33,21 @@ ServerEvents.recipes(event => {
         ],
         "minecraft:ender_eye", "wyvern", 10000).id('contained:ender_eye')
 
+    //Room Key Block
+    event.recipes.draconicevolution.fusion_crafting("contained:iron_key",
+        [
+            "contained:room_block",
+            "contained:open_space_key",
+            "contained:glass_roof_room_key",
+            "contained:blaze_key",
+            "draconicevolution:wyvern_core",
+            "contained:organic_room_key",
+            "contained:additional_asteroids",
+            "contained:room_block"
+
+        ],
+        "roomopolis:room_key_block", "wyvern", 10000000).id('contained:room_key_block')
+
     //Awakened Draconium Key
     event.recipes.draconicevolution.fusion_crafting("contained:iron_key",
         [

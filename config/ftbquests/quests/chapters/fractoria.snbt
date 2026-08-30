@@ -342,6 +342,7 @@
 		{
 			dependencies: ["455EE64ABCFBC1D8"]
 			id: "7F0128F48F869A10"
+			optional: true
 			rewards: [{
 				id: "37F5082107924FC8"
 				item: {
@@ -361,6 +362,7 @@
 		{
 			dependencies: ["2CCBAC253E28A702"]
 			id: "3A5559CD11701E81"
+			optional: true
 			rewards: [{
 				id: "21AE00534D1E0EF7"
 				item: {
@@ -383,6 +385,7 @@
 				"65111C91ADE92BAF"
 			]
 			id: "2CCBAC253E28A702"
+			optional: true
 			rewards: [{
 				id: "2BB966DE1F0C35BC"
 				item: {
@@ -405,6 +408,7 @@
 				"5F6436394F2BA7C7"
 			]
 			id: "65111C91ADE92BAF"
+			optional: true
 			rewards: [{
 				id: "55ECD009F23699B8"
 				item: {

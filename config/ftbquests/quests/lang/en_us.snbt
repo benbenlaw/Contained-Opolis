@@ -127,7 +127,13 @@
 	quest.0B0CC2E0379F6793.quest_desc: ["A simple block used to pulverize items"]
 	quest.0B4E87F70FA691DC.quest_desc: ["Allows you to glide through space!"]
 	quest.0B6186587160751B.quest_desc: ["Can help placing down pipes"]
-	quest.0B90F922BE762307.quest_desc: ["&lAssemble&r the &lEnderic Laser&r to grow budding resources!"]
+	quest.0B90F922BE762307.quest_desc: [
+		"&lAssemble&r the &lEnderic Laser&r to grow budding resources, mine or charge blocks!"
+		""
+		"The laser has a maximum range of 128 blocks and will continue firing until obstructed by a &lTarget&r block or disabled by a redstone signal."
+		""
+		"&oNote that you're only setting a target direction, not a target block.&r"
+	]
 	quest.0B929F18D833336A.quest_desc: ["The next tier of &lGoo&r"]
 	quest.0B992DA64936AFFF.quest_desc: ["A dusty mix"]
 	quest.0C2FEF9425F764B4.quest_desc: ["Can be crafted from &lAsteroid Dust&r"]
@@ -451,6 +457,7 @@
 	quest.2FF06205C7788DBC.quest_desc: ["Enables &lredstone control&r of pipes"]
 	quest.301D3B6E9F205FA2.quest_desc: ["Found on and inside the &lLarge Asteroids&r"]
 	quest.3021D19D380ED059.quest_desc: ["Placing &lAsteroid Sand&r in the world will turn it into &lGlass Blocks&r"]
+	quest.30234C458FBE83B9.quest_desc: ["Can be used to get Crystallized Chorus"]
 	quest.3096602439DE698E.quest_desc: ["A &lBucket of Time&r"]
 	quest.30A67842734DB8F4.quest_desc: ["Pulverized &lAsteroid&r"]
 	quest.30CA2A5DF7E2AAA3.quest_desc: ["Now we can craft"]
@@ -604,7 +611,7 @@
 	quest.42D14045A0C61BEC.quest_desc: ["A simple coil"]
 	quest.42E7D3E38261825D.quest_desc: ["Placing this above the &lSolar Cooker&r allows you to use the &lSolar Cooker&r when its dark"]
 	quest.4340D84C0B477200.quest_desc: [
-		"Drops from &lWither Skeletons&r in &l&6Cindrath&r"
+		"Drops from &lWither Skeletons&r in &l&6Cindrath&r they spawn in the dark"
 		""
 		"Once you have one skull you can put &lBeheading modifier&r on a sword and with that sword you have 100% chance of getting a skull when you kill a &lWither Skeletons&r"
 	]
@@ -690,6 +697,7 @@
 	quest.4D05B70F77C5BB9F.quest_desc: ["Let there be Light"]
 	quest.4D2E7D9E856708B0.quest_desc: ["Made inside the &lSolar Cooker&r"]
 	quest.4D3E3D18A543D5FD.quest_desc: ["When in the &lUpgrade Slot&r allows for &lGold Shards&r to be dropped"]
+	quest.4D6BE20900C91964.quest_desc: ["If you accidentally removed all your &lRoom Key Blocks&r you can craft a new one"]
 	quest.4D8A882E16CFFC8F.quest_desc: ["A &lLarge Asteroid&r found in&l Space&r"]
 	quest.4D8A882E16CFFC8F.title: "Yellow Asteroid"
 	quest.4D8B510D87C5C507.quest_desc: ["Obtained from a &lMysterious Block&r"]
