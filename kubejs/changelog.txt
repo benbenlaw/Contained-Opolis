@@ -7,6 +7,12 @@ Contained
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Contained Opolis 6.2
+
+### Changes
+- Fixed Oritech Diesel not working as a fuel for Casting
+- Updated Oritech to fix Ender Gates popping off and pipes disconnecting when the chunk is unloaded
+
 # Contained Opolis 6.1
 
 ### Changes

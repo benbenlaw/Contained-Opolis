@@ -1,5 +1,10 @@
 [
   {"version":1},
+  {"ingredient":{"id":"oritech:creative_storage_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:small_storage_block","components":"{\"oritech:energy\":1000000L}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"powah:ender_gate_nitro"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:still_diesel"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:still_diesel_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"refinedfluidsubstitution:fluid_substitution_pattern"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"projectred_illumination:cyan_inverted_fallout_light"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"projectred_illumination:red_fixture_light"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -94,10 +99,5 @@
   {"ingredient":{"id":"minecraft:copper_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"justdirethings:charcoal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"contained:certus_quartz_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"casting:multiblock_fuel_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"alltheores:copper_nugget"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"casting:nugget_mold"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"casting:tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"nep:machine_hub"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"nep:import_card"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"casting:multiblock_fuel_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
