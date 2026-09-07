@@ -7,6 +7,15 @@ Contained
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Contained Opolis 6.3
+
+### Maintainer: Szszabi
+
+### Changes
+- Added the Machine Hub to the quests
+- Added a few Custom Compacting Rules
+- Updated JEI to fix a crash
+
 # Contained Opolis 6.2
 
 ### Changes

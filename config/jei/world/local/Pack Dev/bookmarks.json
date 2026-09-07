@@ -8,5 +8,6 @@
   {"ingredient":{"id":"minecraft:diamond_pickaxe","components":"{\"casting:fortune\":5,\"minecraft:damage\":4}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"contained:black_asteroid_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"recipe":"justdirethings:upgrade_nightvision","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
-  {"recipe":"draconicevolution:components/wyvern_core","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+  {"recipe":"draconicevolution:components/wyvern_core","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"nep:fusion_matrix","recipeType":"draconicevolution:fusion_crafting","bookmarkType":"RECIPE"}
 ]

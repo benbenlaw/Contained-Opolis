@@ -160,6 +160,7 @@
 			]
 			id: "26D9C302307DE18F"
 			min_required_dependencies: 3
+			progression_mode: "linear"
 			rewards: [{
 				id: "6B01572A18880244"
 				item: {

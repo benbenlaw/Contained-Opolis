@@ -1,12 +1,5 @@
 // Contained Recipe
 
-//Structure Info
-/*
-    asteroid base, house, large and red are old
-
-    asteroid large room is new and completed
-*/
-
 ServerEvents.recipes(event => {
 
     //Catalog
@@ -279,28 +272,35 @@ ServerEvents.recipes(event => {
     event.shaped('contained:asteroid_hammer', ['ACA', 'ABA', ' B '], { A: 'colors:light_gray_asteroid', B: '#c:rods/wooden', C: 'contained:asteroid_pickaxe' }).id('contained:asteroid_hammer')
 
     // Crystalline dust
-    event.shapeless('contained:crystalline_dust', '9x contained:small_crystalline_dust')
+    event.shapeless('contained:crystalline_dust', '9x contained:small_crystalline_dust').id('contained:crystalline_dust')
 
     //Room Block
-    event.shapeless('contained:room_block', '9x colors:light_gray_asteroid')
+    event.shapeless('contained:room_block', '9x colors:light_gray_asteroid').id('contained:room_block')
 
     //Almost Breakable Glass
-    event.shapeless('contained:almost_unbreakable_glass', '9x #c:glass_panes')
+    event.shapeless('contained:almost_unbreakable_glass', '9x #c:glass_panes').id('contained:almost_unbreakable_glass')
 
     //Ancient ingot block
-    event.shapeless('contained:ancient_ingot_block', '9x contained:ancient_ingot')
+    event.shapeless('contained:ancient_ingot_block', '9x contained:ancient_ingot').id('contained:ancient_ingot_block')
 
     //Crystalline Quartz block
-    event.shapeless('contained:crystalline_quartz_block', '9x contained:crystalline_quartz')
+    event.shapeless('contained:crystalline_quartz_block', '9x contained:crystalline_quartz').id('contained:crystalline_quartz_block')
 
     // Roomblock to light gray asteroid
-    event.shapeless('9x colors:light_gray_asteroid', 'contained:room_block')
+    event.shapeless('9x colors:light_gray_asteroid', 'contained:room_block').id('contained:light_gray_asteroid_from_room_block')
 
     // Organic Powder Block to Organic Powder
-    event.shapeless('4x contained:organic_powder', 'contained:organic_powder_block')
+    event.shapeless('4x contained:organic_powder', 'contained:organic_powder_block').id('contained:organic_powder_from_block')
 
     // Clay Block to Clay
-    event.shapeless('4x minecraft:clay_ball', 'minecraft:clay')
+    event.shapeless('4x minecraft:clay_ball', 'minecraft:clay').id('contained:clay_from_block')
+
+    // Geore blocks to shards
+    event.shapeless('4x geore:diamond_shard', 'geore:diamond_block').id('contained:diamond_shard_from_block')
+    event.shapeless('4x geore:emerald_shard', 'geore:emerald_block').id('contained:emerald_shard_from_block')
+    event.shapeless('4x geore:quartz_shard', 'geore:quartz_block').id('contained:quartz_shard_from_block')
+    event.shapeless('4x geore:uraninite_shard', 'geore:uraninite_block').id('contained:uraninite_shard_from_block')
+    event.shapeless('4x geore:platinum_shard', 'geore:platinum_block').id('contained:platinum_shard_from_block')
 
     // Brown Mushroom
     event.shaped('minecraft:brown_mushroom', ['AAA', ' A ', '   '], { A: 'mysticalagriculture:nature_essence' }).id('contained:brown_mushroom')

@@ -10,15 +10,15 @@
 		#Empowering Module: An Empowerer with a pattern provider against it takes a whole recipe at once.
 		#Each item in the craft goes to their designated recipe slot automatically. The base item goes to the Empowerer and the rest to each Display Stand.
 		#The stands still supply the energy, and the finished item stays in the Empowerer.
-		empowering = true
+		empowering = false
 		#Atomic Reconstruction Module: Encodes Atomic Reconstructor recipes as patterns for the Atomic Empowering Matrix.
 		#The patterns also push their ingredients into adjacent inventories like a plain processing pattern, so a dropper feeding a real Atomic Reconstructor works too.
-		atomicReconstruction = true
+		atomicReconstruction = false
 
 		#Atomic Empowering Matrix:
 		[modules.actuallyadditions.atomicEmpoweringMatrix]
 			#The Atomic Empowering Matrix runs whole empowering and atomic reconstruction recipes inside a single block.
-			enabled = true
+			enabled = false
 			#Treats the Matrix as a requester, allowing it to auto-pull, auto-craft, and auto-request a set of recipe ingredients from the ME network when a craft it owes is left without materials.
 			#When disabled, a Matrix left short of materials stalls until you manually restock it.
 			autoRequest = true
@@ -69,7 +69,7 @@
 		#Infusion Module:
 		[modules.apothic_enchanting.infusion]
 			#The Enchanting Table of the Raven runs infusion recipes pushed by a pattern provider, setting its eterna, quanta, and arcana to whatever the recipe needs and putting the player's own values back afterwards.
-			enabled = true
+			enabled = false
 			#Experience points one Bottle o' Enchanting pays towards an automated infusion, which decides how many bottles a pattern asks for.
 			#A thrown bottle is worth 3 to 11 points, so the default pays ten times what one is worth by hand and keeps the bottle count of a craft small. Lower values make automated infusion more expensive.
 			# Default: 70
@@ -154,14 +154,14 @@
 		allow_create_module = false
 		#Spout Filling Module: Automates `create:filling` recipes and Create's generic bucket and bottle filling.
 		#Covers both machines: a Spout over a Depot, and the Assembly Matrix, which fills without either.
-		filling = true
+		filling = false
 
 		#Deployer Module:
 		[modules.create.deploying]
 			#Automates the Deployer for create:deploying and create:item_application recipes.
 			#The Depot is the machine: the base item is staged on it and a Deployer two blocks above presses onto it.
 			#The Assembly Matrix runs the same recipes on its own, with no Depot or Deployer built.
-			enabled = true
+			enabled = false
 			#Allows Deployers holding an axe strip a log on a Depot. Depends on the deploying module above.
 			#Adds a real Deploying recipe for every log in #minecraft:logs that an axe can strip. The axe is not consumed and takes no damage, matching Create's own axe recipes for de-oxidising copper.
 			logStripping = true
@@ -170,7 +170,7 @@
 		[modules.create.mechanicalCrafting]
 			#Automates Create's Mechanical Crafters, with a pattern provider feeding the array.
 			#The recipe is captured by building it once in a real crafter array rather than encoded at a terminal.
-			enabled = true
+			enabled = false
 			#Toggles crafting/processing patterns auto-resolving to vanilla shaped or shapeless recipes for Mechanical Crafters.
 			#When disabled, only genuine Create Mechanical Crafting recipes are driven.
 			#Also requires Create's own 'recipes.allowRegularCraftingInCrafter' to be enabled.
@@ -438,7 +438,7 @@
 	#How many inventories one Machine Hub may be linked to, and how many a scan may propose. The screen shows twelve rows at a time and scrolls past that.
 	# Default: 24
 	# Range: 1 ~ 64
-	maximumLinks = 24
+	maximumLinks = 32
 	#How many blocks the Machine Hub's scan may walk through before it stops, which is what bounds the cost of pressing the button.
 	#The scan spreads from the blocks touching the Hub through anything that looks like part of the same machine, so it never walks off into the terrain and rarely gets near this ceiling. Raise it for a machine larger than the budget can cover.
 	# Default: 128

@@ -261,6 +261,15 @@
 	quest.1BEBCAC3E03E5E75.quest_desc: ["What a baby"]
 	quest.1C41D8ECDDBF4146.quest_desc: ["From &lBio Spores&r"]
 	quest.1C4DA01CCBF07D6C.quest_desc: ["Provides protection from fall damage "]
+	quest.1C69AFD1BECB977B.quest_desc: [
+		"Multiblock machines with scattered inventories across several blocks are difficult to automate, but the Machine Hub solves this by acting as a single proxy inventory for your Pattern Provider"
+		""
+		"Simply place it touching the multiblock and press Scan at the top to automatically map, link, and route items and fluids to their respective inputs while pulling finished outputs back into your network automatically"
+		""
+		"The Hub operates as a real ME device, consuming 11 channels for the Hub itself plus an additional channel for every linked inventory, so you need to use dense cables to connect it"
+		""
+		"For the complete guide just press &lG&r while hovering over the Machine Hub or the Hub Linker"
+	]
 	quest.1CABC2D05C7F4C21.quest_desc: ["Increases the resource yield for the Enderic Laser. Up to 3 yield addons can be installed."]
 	quest.1CD3CC888CC01672.quest_desc: ["A different Altar, uses essences and items "]
 	quest.1CD9E71781436FC4.quest_desc: ["Now you have more familiar &lSaplings&r you can use most vanilla &lWoods&r to make &lDrawers,&r these allow for more bulk storage of items"]
@@ -705,7 +714,7 @@
 	quest.4DA4D2A00FD1F26D.quest_subtitle: "Decorative"
 	quest.4DA5532BADF76ABE.quest_desc: ["Made on the &5&lStygian Anvil&r"]
 	quest.4DBD0494A9A9E11B.quest_desc: ["Processed &lCrystalline&r"]
-	quest.4E0E0AB3FF3C7AE5.quest_desc: ["One block that runs a whole fusion crafting. No Crafting Core, no Injectors, no alignment: the Matrix stages the ingredients itself, charges on raw energy, and hands the finished item back to the network."]
+	quest.4E0E0AB3FF3C7AE5.quest_desc: ["One block that runs a whole fusion crafting process. No Crafting Core, no Injectors, no alignment: the Matrix stages the ingredients itself, charges on raw energy, and hands the finished item back to the network, but it does need 15 channels to work."]
 	quest.4E0E3C705BD5410A.quest_desc: ["&lHappy Ghasts&r can be summoned using the &lSummoning Block&r. When equiped with a &lHarness&r can be controlled and used to fly around in &lSpace&r"]
 	quest.4E2B4445927F9A61.quest_desc: ["Requires 4 of these"]
 	quest.4E5B532B58CD9523.quest_desc: ["Smelted &lDust&r"]
@@ -809,9 +818,9 @@
 	quest.5A7DF1D11D52A81A.quest_desc: [
 		"Build the projector field as you normally would, then place the Controller so it touches one of the four projectors on any face."
 		""
-		"Put a Pattern Provider against any side of the Controller and drop Miniaturization Pattern patterns in it. The Controller buffers the blocks and the catalyst as they arrive."
+		"Put a Pattern Provider against any side of the Controller and drop &lMiniaturization Patterns&r into it. The Controller buffers the blocks and the catalyst as they arrive."
 		""
-		"The Controller is an ME machine: it joins the network through its own grid connection, draws a small standing power cost, and returns finished items to the Provider on its own. It needs no Import Card."
+		"It uses 7 channels by itself and returns finished items to the Provider on its own, so it doesn't need an &lImport Card&r."
 	]
 	quest.5AA091C6158AFC24.quest_desc: ["Expertly destroyed "]
 	quest.5AD4EE724B332621.quest_desc: ["Can be used to make a better key"]

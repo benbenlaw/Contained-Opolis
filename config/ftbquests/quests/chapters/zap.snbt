@@ -392,7 +392,7 @@
 				type: "checkmark"
 			}]
 			x: -2.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["20B884AA060A8598"]
@@ -453,6 +453,32 @@
 			}]
 			x: 2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["70EE1FC770ADA17B"]
+			id: "1C69AFD1BECB977B"
+			rewards: [{
+				id: "6110D535E5C9194C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7831590162F5A7E0"
+					item: { count: 1, id: "nep:machine_hub" }
+					type: "item"
+				}
+				{
+					id: "2932779D91692439"
+					item: { count: 1, id: "nep:hub_linker" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.0d
 		}
 	]
 }
