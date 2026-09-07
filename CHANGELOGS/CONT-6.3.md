@@ -1,6 +1,7 @@
 # Contained - v6.3 (2026-09-07 22:24)
 
 ### Author: benbenlaw
+### Maintainer: szszabi
 
 NeoForge Version: 21.1.250
 
