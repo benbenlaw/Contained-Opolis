@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "supplementaries_way_signs",
+  "name": {
+    "translate": "collapsible_groups.group.supplementaries_way_signs",
+    "fallback": "Supplementaries: Way Signs"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "supplementaries:way_signs"
+  }
+}

@@ -409,5 +409,25 @@
 			x: 1.0d
 			y: -4.0d
 		}
+		{
+			dependencies: ["21EFE1F50A82403B"]
+			id: "26D9EABC11BE1DA7"
+			optional: true
+			rewards: [{
+				id: "7251F4D3D7A32AA4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E1E306064124CEC"
+				item: { count: 1, id: "nep:particle_collision_matrix" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
 	]
 }

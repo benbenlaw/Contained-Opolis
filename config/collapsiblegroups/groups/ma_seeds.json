@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "ma_seeds",
+  "name": {
+    "translate": "collapsible_groups.group.ma_seeds",
+    "fallback": "MA: Seeds"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "mysticalagriculture:seeds"
+  }
+}

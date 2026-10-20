@@ -5,8 +5,17 @@
     "fallback": "SimpleHats: Hats "
   },
   "enabled": true,
+  "icon": "simplehats:haticon",
   "filter": {
-    "type": "item",
-    "tag": "simplehats:all_hats"
+    "any": [
+      {
+        "type": "item",
+        "id": "simplehats:haticon"
+      },
+      {
+        "type": "item",
+        "tag": "simplehats:all_hats"
+      }
+    ]
   }
 }

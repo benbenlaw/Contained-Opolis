@@ -9,5 +9,8 @@
   {"ingredient":{"id":"contained:black_asteroid_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"recipe":"justdirethings:upgrade_nightvision","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
   {"recipe":"draconicevolution:components/wyvern_core","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
-  {"recipe":"nep:fusion_matrix","recipeType":"draconicevolution:fusion_crafting","bookmarkType":"RECIPE"}
+  {"recipe":"nep:fusion_matrix","recipeType":"draconicevolution:fusion_crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:glass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"draconicevolution:chaotic_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"contained:exotic_resource_cluster"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

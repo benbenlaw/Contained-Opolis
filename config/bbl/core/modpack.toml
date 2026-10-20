@@ -13,7 +13,7 @@
 	#Modpack name
 	"Modpack name" = "Contained"
 	#Modpack Version
-	"Modpack Version" = "6.3"
+	"Modpack Version" = "6.4"
 
 ["Check if the modpack has any updates available"]
 	#Check if the modpack has any updates available, default = false

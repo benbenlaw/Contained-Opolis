@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "projectred_fabrication",
+  "name": {
+    "translate": "collapsible_groups.group.projectred_fabrication",
+    "fallback": "ProjectRed Fabrication"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "namespace": "projectred_fabrication"
+  }
+}

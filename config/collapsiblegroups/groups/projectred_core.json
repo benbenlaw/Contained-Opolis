@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "projectred_core",
+  "name": {
+    "translate": "collapsible_groups.group.projectred_core",
+    "fallback": "ProjectRed Core"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "namespace": "projectred_core"
+  }
+}

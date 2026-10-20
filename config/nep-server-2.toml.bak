@@ -138,12 +138,14 @@
 		#When disabled, every Create module below is disabled regardless of its own toggle.
 		allow_create_module = false
 		#Spout Filling Module: Automates `create:filling` recipes and Create's generic bucket and bottle filling.
+		#Covers both machines: a Spout over a Depot, and the Assembly Matrix, which fills without either.
 		filling = true
 
 		#Deployer Module:
 		[modules.create.deploying]
 			#Automates the Deployer for create:deploying and create:item_application recipes.
 			#The Depot is the machine: the base item is staged on it and a Deployer two blocks above presses onto it.
+			#The Assembly Matrix runs the same recipes on its own, with no Depot or Deployer built.
 			enabled = true
 			#Allows Deployers holding an axe strip a log on a Depot. Depends on the deploying module above.
 			#Adds a real Deploying recipe for every log in #minecraft:logs that an axe can strip. The axe is not consumed and takes no damage, matching Create's own axe recipes for de-oxidising copper.
@@ -188,14 +190,14 @@
 			# Range: 0 ~ 24000
 			reclaimGrace = 200
 
-		#Sequenced Assembly Matrix:
+		#Assembly Matrix:
 		[modules.create.sequencedAssemblyMatrix]
-			#The Sequenced Assembly Matrix runs a whole sequenced assembly recipe inside a single block.
+			#The Assembly Matrix runs a whole sequenced assembly recipe inside a single block.
 			enabled = false
 			#Bypasses the output chances of sequenced assembly recipes, so the Matrix craft always yields the recipe's primary result.
 			#When disabled, the Matrix rolls the recipe's result pool exactly as a physical line does: unlucky rolls produce junk, which is placed into network storage, and the ingredients for that attempt are lost.
 			guaranteedResults = true
-			#Treats the Sequenced Assembly Matrix as a requester, allowing it to auto-pull, auto-craft, and auto-request a set of recipe ingredients from the ME network when a craft it owes is left without materials.
+			#Treats the Assembly Matrix as a requester, allowing it to auto-pull, auto-craft, and auto-request a set of recipe ingredients from the ME network when a craft it owes is left without materials.
 			#This lets a Matrix with guaranteedResults disabled retry after a chance recipe rolls junk. When disabled, an unlucky streak stalls the crafting network until manually fixed.
 			autoRequest = true
 			#Energy the Matrix draws from its ME network while assembling, in AE per tick. Progress stops whenever the network cannot supply this much power.
@@ -246,11 +248,11 @@
 		#Fusion Crafting Module: The Crafting Core is the machine, and the network stages the catalyst in the core, loads every Crafting Injector around it, and starts the craft.
 		fusionCrafting = true
 
-		#Fusion Matrix:
+		#Injector Fusion Matrix:
 		[modules.draconicevolution.fusionMatrix]
-			#The Fusion Matrix runs a whole fusion crafting recipe inside a single block, with no Crafting Core or Injectors.
+			#The Injector Fusion Matrix runs a whole fusion crafting recipe inside a single block, with no Crafting Core or Injectors.
 			enabled = true
-			#Treats the Fusion Matrix as a requester, allowing it to auto-pull, auto-craft, and auto-request a set of recipe ingredients from the ME network when a craft it owes is left without materials.
+			#Treats the Injector Fusion Matrix as a requester, allowing it to auto-pull, auto-craft, and auto-request a set of recipe ingredients from the ME network when a craft it owes is left without materials.
 			#When disabled, a Matrix left short of materials stalls until you restock it by hand.
 			autoRequest = true
 			#Energy a Matrix craft costs, as a percentage of the fusion recipe's own energy cost.
@@ -283,7 +285,7 @@
 			#Highest fusion recipe tier the Matrix will run: 'draconium', 'wyvern', 'draconic', or 'chaotic'.
 			maximumTier = "chaotic"
 
-			#Draconic Evolution cores slotted into the Fusion Matrix's upgrade slot tune the machine to the tier of core it holds. Each higher tier compounds lower tiers' upgrades.
+			#Draconic Evolution cores slotted into the Injector Fusion Matrix's upgrade slot tune the machine to the tier of core it holds. Each higher tier compounds lower tiers' upgrades.
 			#One slot means one tier at a time; Wyvern Cores increases energy buffer; Draconic Cores also increase fusion speed; Chaotic Cores also decrease energy costs.
 			[modules.draconicevolution.fusionMatrix.upgrades]
 				#Quantity of Cores accepted. Each is measured against a full slot, so lowering this makes each core better.

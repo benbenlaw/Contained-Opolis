@@ -3,9 +3,21 @@ Contained
 // Template for changelog
 # Contained Opolis <version>
 
+### Maintainer: 
+
 ### Changes
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Contained Opolis 6.4
+
+### Maintainer: Szszabi
+
+### Changes
+- New Router -- Exporter and Importer in one block
+- Changed the Festive Hat Grab-bag to Halloween one 
+- Enabled the Just Dire Things Dupe fix in BBL Fixes config to prevent item duplication
+- Enabled the Just Dire Things Fluid Collector fix in BBL Fixes config to prevent fluid duplication
 
 # Contained Opolis 6.3
 

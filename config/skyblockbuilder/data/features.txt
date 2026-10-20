@@ -84,6 +84,7 @@ geore:coal_geode
 geore:copper_geode
 geore:diamond_geode
 geore:emerald_geode
+geore:glowstone_geode
 geore:gold_geode
 geore:iron_geode
 geore:lapis_geode
@@ -123,6 +124,7 @@ minecraft:birch_tall
 minecraft:blackstone_blobs
 minecraft:blue_ice
 minecraft:bonus_chest
+minecraft:brown_mushroom
 minecraft:cactus_flower
 minecraft:cave_vine
 minecraft:cave_vine_in_moss
@@ -153,6 +155,7 @@ minecraft:end_spike
 minecraft:fallen_birch_tree
 minecraft:fallen_jungle_tree
 minecraft:fallen_oak_tree
+minecraft:fallen_poplar_tree
 minecraft:fallen_spruce_tree
 minecraft:fallen_super_birch_tree
 minecraft:fancy_oak
@@ -187,7 +190,8 @@ minecraft:kelp
 minecraft:lake_lava
 minecraft:large_basalt_columns
 minecraft:large_dripstone
-minecraft:leaf_litter
+minecraft:leaf_litter_sparse
+minecraft:leaf_litter_thick
 minecraft:lush_caves_clay
 minecraft:mangrove
 minecraft:mangrove_vegetation
@@ -207,6 +211,7 @@ minecraft:oak
 minecraft:oak_bees_0002
 minecraft:oak_bees_002
 minecraft:oak_bees_005
+minecraft:orange_poplar
 minecraft:ore_ancient_debris_large
 minecraft:ore_ancient_debris_small
 minecraft:ore_andesite
@@ -276,6 +281,8 @@ minecraft:pile_pumpkin
 minecraft:pile_snow
 minecraft:pine
 minecraft:pointed_dripstone
+minecraft:red_poplar
+minecraft:red_shrub
 minecraft:rooted_azalea_tree
 minecraft:rooted_sulfur_spring
 minecraft:sculk_patch_ancient_city
@@ -306,6 +313,7 @@ minecraft:super_birch_bees_0002
 minecraft:swamp_oak
 minecraft:tall_mangrove
 minecraft:trees_birch_and_oak
+minecraft:trees_dappled_forest
 minecraft:trees_flower_forest
 minecraft:trees_grove
 minecraft:trees_jungle
@@ -330,6 +338,7 @@ minecraft:warped_fungus_planted
 minecraft:weeping_vines
 minecraft:wildflowers_birch_forest
 minecraft:wildflowers_meadow
+minecraft:yellow_poplar
 mysticalagradditions:end_inferium_ore
 mysticalagradditions:end_prosperity_ore
 mysticalagradditions:nether_inferium_ore

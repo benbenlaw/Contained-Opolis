@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "projectred_transmission",
+  "name": {
+    "translate": "collapsible_groups.group.projectred_transmission",
+    "fallback": "ProjectRed Transmission"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "namespace": "projectred_transmission"
+  }
+}

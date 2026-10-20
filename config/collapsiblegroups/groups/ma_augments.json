@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "id": "ma_augments",
+  "name": {
+    "translate": "collapsible_groups.group.ma_augments",
+    "fallback": "MA: Augments"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "mysticalagriculture:pathing_aoe_i_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:absorption_i_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:luck_i_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:health_boost_i_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:nausea_resistance_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:night_vision_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:water_breathing_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:absorption_ii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:jump_boost_i_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:health_boost_ii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:speed_i_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:mining_aoe_i_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:tilling_aoe_i_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:health_boost_v_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:wither_resistance_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:luck_iii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:absorption_v_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:hunger_resistance_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:mining_fatigue_resistance_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:pathing_aoe_iv_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:tilling_aoe_iii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:attack_aoe_ii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:mining_aoe_iii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:haste_ii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:speed_iii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:strength_ii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:health_boost_iv_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:jump_boost_iii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:poison_resistance_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:absorption_iv_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:slowness_resistance_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:weakness_resistance_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:pathing_aoe_iii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:tilling_aoe_ii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:attack_aoe_i_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:mining_aoe_ii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:slow_falling_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:no_fall_damage_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:haste_i_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:speed_ii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:strength_i_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:health_boost_iii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:step_assist_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:jump_boost_ii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:fire_resistance_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:luck_ii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:absorption_iii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:blindness_resistance_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:pathing_aoe_ii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:strength_iii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:haste_iii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:flight_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:mining_aoe_iv_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:attack_aoe_iii_augment"
+      },
+      {
+        "type": "item",
+        "id": "mysticalagriculture:tilling_aoe_iv_augment"
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "boats",
+  "name": {
+    "translate": "collapsible_groups.group.boats",
+    "fallback": "Boats"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "minecraft:poplar_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:bamboo_raft"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:oak_chest_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:oak_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:spruce_chest_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:birch_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:birch_chest_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:jungle_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:jungle_chest_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:acacia_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:acacia_chest_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:dark_oak_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:dark_oak_chest_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:mangrove_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:mangrove_chest_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:cherry_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:cherry_chest_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:pale_oak_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:pale_oak_chest_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:spruce_boat"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:poplar_chest_boat"
+      },
+      {
+        "type": "item",
+        "id": "supplementaries:cannon_boat_oak"
+      },
+      {
+        "type": "item",
+        "id": "supplementaries:cannon_boat_spruce"
+      },
+      {
+        "type": "item",
+        "id": "supplementaries:cannon_boat_birch"
+      },
+      {
+        "type": "item",
+        "id": "supplementaries:cannon_boat_jungle"
+      },
+      {
+        "type": "item",
+        "id": "supplementaries:cannon_boat_acacia"
+      },
+      {
+        "type": "item",
+        "id": "supplementaries:cannon_boat_dark_oak"
+      },
+      {
+        "type": "item",
+        "id": "supplementaries:cannon_boat_mangrove"
+      },
+      {
+        "type": "item",
+        "id": "supplementaries:cannon_boat_cherry"
+      },
+      {
+        "type": "item",
+        "id": "supplementaries:cannon_boat_pale_oak"
+      },
+      {
+        "type": "item",
+        "id": "supplementaries:cannon_boat_poplar"
+      }
+    ]
+  }
+}

@@ -363,6 +363,7 @@
 	quest.26B50B889463613E.quest_desc: ["Broken down block"]
 	quest.26CFF763D624325F.quest_desc: ["When in the &lUpgrade Slot&r allows for &lNetherite Shards&r to be dropped"]
 	quest.26D9C302307DE18F.quest_desc: ["Finally, light it with the &b&lOverworld Crystal&r&r"]
+	quest.26D9EABC11BE1DA7.quest_desc: ["One block version of the Particle Accelerator"]
 	quest.26F5F9F62862B535.quest_desc: ["From the &lPulverizer&r"]
 	quest.279B37E39C0408C9.quest_desc: [
 		"Increases the energy buffer of any energy block by 2,000,000 RF. It also boosts throughput by 2,000 RF/t."

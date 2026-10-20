@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "harnesses",
+  "name": {
+    "translate": "collapsible_groups.group.harnesses",
+    "fallback": "Harnesses"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "minecraft:pink_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:magenta_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:purple_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:blue_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:light_blue_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:cyan_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:green_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:lime_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:yellow_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:orange_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:red_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:brown_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:black_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:gray_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:light_gray_harness"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:white_harness"
+      }
+    ]
+  }
+}

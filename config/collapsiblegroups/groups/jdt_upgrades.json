@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "id": "jdt_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.jdt_upgrades",
+    "fallback": "JDT: Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_blank"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_mobscanner"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_oreminer"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_lavaimmunity"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_flight"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_noai"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_earthquake"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_instabreak"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_glowing"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_orexray"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_waterbreathing"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_homing"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_lingering"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_decoy"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_nightvision"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_negatefalldamage"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_dropteleport"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_elytra"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_splash"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_stupefy"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_extinguish"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_groundstomp"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_swimspeed"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_cauterizewounds"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_hammer"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_smoker"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_smelter"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_potionarrow"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_invulnerability"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_mindfog"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_jumpboost"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_stepheight"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_walkspeed"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_runspeed"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_leafbreaker"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_treefeller"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_skysweeper"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_lawnmower"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_orescanner"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_phase"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_deathprotection"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_debuffremover"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_epicarrow"
+      },
+      {
+        "type": "item",
+        "id": "justdirethings:upgrade_time_protection"
+      }
+    ]
+  }
+}

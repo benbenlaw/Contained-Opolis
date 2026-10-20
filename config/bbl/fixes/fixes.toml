@@ -14,3 +14,7 @@
 	"Enable Immersive Petroleum fix" = false
 	#Fixed Distillation Tower recipe output disappearing after some time
 	"Enable Immersive Petroleum Distillation Tower fix" = false
+	#Stops Just Dire Things machines keeping their items in the dropped block when they also drop them, fixes dupes with explosions and block breakers, requires Just Dire Things, default = false
+	"Enable Just Dire Things dupe fix" = true
+	#Stops the Just Dire Things Fluid Collector filling stacked fluid containers, which filled every container in the stack for the price of one, requires Just Dire Things, default = false
+	"Enable Just Dire Things fluid collector fix" = true

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "ae2_facades",
+  "name": {
+    "translate": "collapsible_groups.group.ae2_facades",
+    "fallback": "AE2: Facades"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "ae2:facade"
+  }
+}

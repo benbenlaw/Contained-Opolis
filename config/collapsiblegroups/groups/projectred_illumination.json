@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "projectred_illumination",
+  "name": {
+    "translate": "collapsible_groups.group.projectred_illumination",
+    "fallback": "ProjectRed Illumination"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "namespace": "projectred_illumination"
+  }
+}
