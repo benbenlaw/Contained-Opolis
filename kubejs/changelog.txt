@@ -9,6 +9,14 @@ Contained
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Contained Opolis 6.5
+
+### Maintainer: Szszabi
+
+### Changes
+- Updated FTB Quests to fix chapters not being marked complete if they contain a Quest Link
+
+
 # Contained Opolis 6.4
 
 ### Maintainer: Szszabi

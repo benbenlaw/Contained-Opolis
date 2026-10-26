@@ -1,11 +1,15 @@
+#If true, a Wireless Transmitter holding an Infinity Card or Dimension Card
+#keeps its chunk loaded even when no players are nearby.
+chunkLoadingEnabled = true
+
 [infinityCard]
-	#The energy need to run the Infinity Card
-	# Default: 4000
+	#The energy the Infinity Card uses per tick
+	# Default: 50
 	# Range: > 0
 	energyUsage = 1000
 
 [dimensionCard]
-	#The energy need to run the Dimension Card
-	# Default: 8000
+	#The energy the Dimension Card uses per tick
+	# Default: 100
 	# Range: > 0
 	energyUsage = 2000
